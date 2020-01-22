@@ -1,5 +1,5 @@
-import godot
-import godotapi/[canvas_layer, timer, label, asyncdispatch]
+import godot, asyncdispatch
+import godotapi/[canvas_layer, timer, label]
 
 gdobj Hud of CanvasLayer:
   var messageTimer: Timer
